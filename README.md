@@ -8,8 +8,13 @@ This is a web app built with **EcmaScript** & **Webpack**. It uses some popular 
 
 ## Ready to start:
 `git clone`
+
 `npm i`
+
 `npm run build` to run __production__  `/dist` folder.
+
 `npm run dev` to run __dev-server__ in __development__ mode.
+
 `npm run test` to run __unit testing__  `.test` files with Mocha & Chai.
+
 `npm run lint` to check js syntax.
