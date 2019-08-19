@@ -1,0 +1,49 @@
+{
+  "name": "andromeda",
+  "version": "1.0.0",
+  "description": "EcmaScript + Webpack App, with Testing",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --config webpack.dev.js",
+    "test": "mocha 'src/**/*.test.js'",
+    "lint": "eslint src"
+  },
+  "keywords": [
+    "Javascript",
+    "Babel",
+    "Webpack",
+    "Mocha & Chai",
+    "Eslint",
+    "Scss"
+  ],
+  "author": "Federico Perez",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "chai": "^4.2.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.2.0",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "mocha": "^6.2.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^7.2.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.0.0",
+    "terser-webpack-plugin": "^1.4.1",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "clean-webpack-plugin": "^3.0.0"
+  }
+}
