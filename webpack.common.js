@@ -4,10 +4,6 @@ module.exports = {
         app: [ '@babel/polyfill', './src/index.js' ]
     },
 
-    devServer: {
-        port: 8080
-    },
-
     module: {
         rules: [
             {

@@ -11,6 +11,10 @@ module.exports = merge (common, {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].bundle.js'
     },
+    
+    devServer: {
+        port: 8080
+    },
 
     devtool: 'inline-source-map',
 

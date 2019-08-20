@@ -1,5 +1,10 @@
 import { logger } from './modules/logger';
 
-export function App() {
-	console.log( logger('text') );
+export class App {
+	constructor(text) {
+		this.log(text);
+	}
+	log(text) {
+		console.log( logger(text) );
+	}
 }

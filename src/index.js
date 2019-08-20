@@ -1,4 +1,5 @@
-import './styles/main.scss';
+import './styles/styles.scss';
+
 import { App } from './app';
 
-App('tester');
+new App('tester');
