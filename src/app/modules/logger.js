@@ -1,4 +1,8 @@
 const logger = (msg) => {
 	return `this is your text: ${msg}!`;
 };
-module.exports = { logger };
+const msgDef = 'example message...';
+
+export default msgDef; 
+
+export { logger };
